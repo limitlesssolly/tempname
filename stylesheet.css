@@ -5,43 +5,44 @@ h1 {
 }
 
 .squarene {
-    margin-top: 120px;
-    margin-left: 100px;
+    margin-top: 75px;
+    margin-left: 40px;
     height: 200px;
     width: 200px;
     background-color: #9F8C86;
 }
 
 .squareme {
-    margin-top: 10px;
-    margin-left: 100px;
+    margin-top: 75px;
+    margin-left: 10%;
     height: 200px;
     width: 200px;
     background-color: #9705ec;
 }
 
 .squareas {
-    margin-top: 10px;
-    margin-left: 100px;
     height: 200px;
     width: 200px;
+    margin-top: 75px;
+    margin-left: 5%;
+    margin-right: 30px;
     background-color: #de88c7;
 }
 
 .squaresha {
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 150px;
     height: 200px;
     width: 200px;
-    background-color: #de88c7;
+    background-color: #006E6D;
 }
 
 .squarena {
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 3%;
     height: 200px;
     width: 200px;
-    background-color: #de88c7;
+    background-color: #dc00a2;
 }
 
 .column {
