@@ -2,22 +2,24 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family: cursive;
     text-align: center;
 }
+
 .container {
     min-height: 100vh;
     background-image: url("MinnaBackground.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
 .hero {
     width: 80%;
     margin: auto;
     padding: 30px 0px;
 }
+
 article h1 {
     font-size: 50px;
     font-weight: 800;
@@ -25,6 +27,7 @@ article h1 {
     text-transform: uppercase;
     color: rgb(10, 88, 29);
 }
+
 article h1::after {
     content: "";
     height: 3px;
@@ -33,6 +36,7 @@ article h1::after {
     display: block;
     margin: auto;
 }
+
 img {
     margin: auto;
     display: block;
@@ -42,12 +46,13 @@ img {
     border-radius: 50%;
     border: 3px solid #bef4f7;
 }
+
 content {
     font-size: 17px;
     color: #000000;
     line-height: 1.5;
-
 }
+
 article h5 {
     font-weight: bold;
     text-transform: uppercase;
@@ -56,10 +61,12 @@ article h5 {
     margin-top: 30px;
     color: rgb(6, 46, 15);
 }
+
 article p {
     font-size: 18px;
     color: #000000;
 }
+
 p {
     color: #770041;
 }
