@@ -1,0 +1,31 @@
+h3
+{
+    font:bold;
+    float :left;
+    position :relative;
+    left:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+h2
+{
+    font:bold;
+    float :left;
+    position :absolute;
+    left:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+div
+{
+    float:right;
+    position :absolute;
+    right: 200px;
+    top: 100px;
+
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 5px;
+    width: 350px;
+}
