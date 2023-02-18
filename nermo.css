@@ -1,0 +1,8 @@
+img{
+  background:url(nermo.png);
+  background-repeat: no-repeat;
+  width:50%;
+  position:relative;
+  left:60px;
+  height:100%;
+}
