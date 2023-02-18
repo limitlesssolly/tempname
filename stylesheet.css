@@ -1,4 +1,5 @@
 body {
+    border-top: 40px;
     background-color: aliceblue;
 }
 
@@ -13,13 +14,13 @@ img{
 }
 
 .square {
-    height: 200px;
-    width: 200px;
+    height: 325px;
+    width: 325px;
 }
 
 .squarene {
     margin-top: 75px;
-    margin-left: 40px;
+    margin-left: 10%;
     background-color: #9F8C86;
 }
 
@@ -33,7 +34,7 @@ img{
     margin-top: 75px;
     margin-left: 5%;
     margin-right: 30px;
-    background-color: #de88c7;
+    background-color: #B30018;
 }
 
 .squaresha {
@@ -45,7 +46,7 @@ img{
 .squarena {
     margin-top: 10px;
     margin-left: 3%;
-    background-color: #dc00a2;
+    background-color: #e43378;
 }
 
 .column {
