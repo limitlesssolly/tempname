@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin:center;
+    box-sizing: border-box;
+}
+
+
+body{
+background-color: rgb(212, 199, 199);   
+color:#080707;
+
+}
+
+.heading1
+{
+font-size: 37px;
+color:rgb(176, 135, 229);
+padding: 1rem 2rem 2rem 3rem;
+text-align: center;
+
+
+} 
+.heading2{
+    font-size: 20px;
+color:black;
+}
+
+.image{
+    margin-top: 4rem ;
+    margin-bottom:1rem ;
+    display: inline-block;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    overflow:hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
