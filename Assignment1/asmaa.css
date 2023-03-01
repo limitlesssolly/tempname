@@ -1,25 +1,28 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
-.about-wrapper{
+
+.about-wrapper {
     height: 100vh;
 }
-.about-left{
+
+.about-left {
     background-color: #411438;
     background-image: linear-gradient(19deg, #b80a0a 0%, #B721FF 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color:#fff
+    color: #fff
 }
-.about-left-content > div{
+
+.about-left-content>div {
     background: #2e061b;
     padding: 4rem 4rem 4rem 4rem;
     text-align: center;
@@ -29,28 +32,30 @@ body{
     -ms-border-radius: 12px 12px 12px 12px;
     -o-border-radius: 12px 12px 12px 12px;
 }
-.about-left-content{
+
+.about-left-content {
     box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
     -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
     -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
     border-radius: 12px;
-    width:90%;
+    width: 90%;
 }
-.about-img img{
+
+.about-img img {
     display: block;
     width: 200px;
 }
-.about-img{
+
+.about-img {
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-  
 }
-.shadow{
+
+.shadow {
     margin-left: auto;
     margin-right: auto;
-   
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -60,24 +65,23 @@ body{
     -o-border-radius: 50%;
 }
 
-
-
-.about-left-content h2{
+.about-left-content h2 {
     font-size: 2rem;
     margin: 2.2rem 0 0.6rem 0;
     line-height: 1.2;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #9a2ab9;;
+    border-bottom: 2px solid #9a2ab9;
+    ;
 }
-.about-left-content h3{
+
+.about-left-content h3 {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 5px;
     margin-top: 1.2rem;
 }
 
-
-.about-right{
+.about-right {
     background: #2e061b;
     height: 100vh;
     display: flex;
@@ -86,47 +90,50 @@ body{
     justify-content: center;
     padding: 0 5rem;
     text-align: center;
-    color:#fff
+    color: #fff
 }
-.about-right h1{
+
+.about-right h1 {
     font-size: 5rem;
     text-transform: uppercase;
 }
-.about-right h1 span{
+
+.about-right h1 span {
     color: #9a2ab9;
 }
-.about-right h2{
+
+.about-right h2 {
     font-weight: 600;
 }
 
-.about-para p{
+.about-para p {
     font-weight: 300;
     padding: 0.5rem;
     opacity: 0.8;
 }
 
-@media screen and (min-width: 992px){
-    .about-wrapper{
+@media screen and (min-width: 992px) {
+    .about-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
-
-    .about-left{
+    .about-left {
         position: relative;
     }
-    .about-left-content{
+    .about-left-content {
         position: absolute;
-        width:80%
-    
+        width: 80%
     }
 }
-.credit{
+
+.credit {
     text-align: center;
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.credit a{
+
+.credit a {
     text-decoration: none;
-    color:#B721FF;
+    color: #B721FF;
     font-weight: bold;
-} 
+}
